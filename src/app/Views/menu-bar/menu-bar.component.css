@@ -1,0 +1,28 @@
+.menu-bar_container{
+    background-color: #222020;
+    border-bottom: 1px solid #b9b9b9;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.menu-bar_logo{
+    width: 200px;
+}
+.menu-bar > nav {
+    display: flex;
+}
+.menu-bar > nav > a{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    color: white;
+
+    font-family:'PT Sans', sans-serif; 
+    font-size:1.1em;
+}
+.menu-bar > nav > a > img{
+ width: 40px;
+}
