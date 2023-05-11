@@ -7,6 +7,8 @@ import { MenuBarComponent } from './Views/menu-bar/menu-bar.component';
 import { HomeComponent } from './views/home/home.component';
 import { CardTituloComponent } from './views/card-titulo/card-titulo.component';
 import { SobreMimComponent } from './views/sobre-mim/sobre-mim.component';
+import { CardSkillsComponent } from './views/card-skills/card-skills.component';
+import { PortifolioComponent } from './Views/portifolio/portifolio.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SobreMimComponent } from './views/sobre-mim/sobre-mim.component';
     MenuBarComponent,
     HomeComponent,
     CardTituloComponent,
-    SobreMimComponent
+    SobreMimComponent,
+    CardSkillsComponent,
+    PortifolioComponent
   ],
   imports: [
     BrowserModule,

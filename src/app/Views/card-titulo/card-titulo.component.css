@@ -36,6 +36,14 @@
     border-radius: 10px;
     margin-left: 210px;
 }
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.wpp{
+    width: 30px;
+}
 .card-menu_conteudo  > button > a{
     color:rgb(163, 156, 156);;
     font-size: 1.0em;

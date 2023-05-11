@@ -1,0 +1,41 @@
+<div class="card-skills_container">
+
+
+    <h1>Stacks</h1>
+
+    <div class="card-skills_conteudo">
+
+        <div class="card-skills" *ngFor="let habilidade of Habilidades">
+
+
+            <div class="card-skill">
+                <h1>{{habilidade.Stack}}</h1>
+
+                <div class="card-habilidade">
+                    <img src="{{habilidade.image1}}">
+                    <p>{{habilidade.habilidade1}}</p>
+                </div>
+                <div class="card-habilidade">
+                    <img src="{{habilidade.imageCss}}">
+                    <p>{{habilidade.HabilidadeCss}}</p>
+                </div>
+                <div class="card-habilidade">
+                    <img src="{{habilidade.image2}}">
+                    <p>{{habilidade.habilidade2}}</p>
+                </div>
+
+                <div class="card-habilidade">
+                    <img src="{{habilidade.image3}}">
+                    <p>{{habilidade.habilidade3}}</p>
+                </div>
+                <div class="card-habilidade">
+                    <img src="{{habilidade.image4}}">
+                    <p>{{habilidade.habilidade4}}</p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
