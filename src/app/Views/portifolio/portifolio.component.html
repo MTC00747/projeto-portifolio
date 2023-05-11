@@ -1,1 +1,20 @@
-<p>portifolio works!</p>
+<div class="portifolio_container">
+
+    <h1>Portifólio</h1>
+
+    <div class="cards">
+
+        <div style="background-image: url('{{projeto.Imagem}}');"class="Projetos_conteudo" *ngFor="let projeto of projetos">
+            <div  class="projeto">
+
+                <div class="conteudo ">
+                    <a href="{{projeto.Link}}">
+                        <h1 class="titulo">{{projeto.Titulo}}</h1>
+                        <p class="descrição">< {{projeto.Descricao}} /></p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
