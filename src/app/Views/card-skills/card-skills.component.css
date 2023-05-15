@@ -71,7 +71,6 @@
 @media (min-width: 200px) and (max-width:650px) { 
 
     .card-skills_container{
-        border: 1px solid white;
         width: 100%;
         justify-content: center;
         height: 1300px;
@@ -82,7 +81,7 @@
         width: 200px;
     }
     .card-skills {
-        border: 1px solid white;
+    
         margin-left: 20px;
 
     }

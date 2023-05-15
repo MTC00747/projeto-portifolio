@@ -75,34 +75,35 @@
         flex-direction: column;
        
         height: 700px;
-        border: 2px solid white;
+       
         
     }
     .card-menu_conteudo{
-        justify-content: center;
-        align-items: center;
+    
         width: 100%;
         margin-bottom: 50px;
         padding-bottom: 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
         
     }
     .card-menu_conteudo > h1{
-        margin-left: 10px;
+        margin-left: 50px;
         font-size: 1.5em;
         width: 50%;
     }
     .card-menu_conteudo > p{
-        margin-left: 10px;
+        margin-left: 50px;
         width: 50%;
         font-size: 1em;
     }
     .card-menu_conteudo > button{
-        margin-left: 0px;
-        margin-right:50px;
+        margin-left: 50px;
+       
     }
     .card-menu_image {
         width: 50%;
-        margin-left: 20px;
+        margin-left: 40px;
         
     }
     .card-menu_image > img{

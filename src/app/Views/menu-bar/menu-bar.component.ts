@@ -8,4 +8,14 @@ import { Component, Input } from '@angular/core';
 export class MenuBarComponent {
 @Input()
 titulo : string = ""
+menuAberto : boolean = false
+
+abrirMenu(){
+  if(!this.menuAberto){
+    this.menuAberto = true
+    
+  }else{
+    this.menuAberto = false
+  }
+}
 }

@@ -65,7 +65,6 @@
 @media (min-width: 200px) and (max-width:650px){
 
     .sobre-mim_container {
-        border: 1px solid white;
         margin-top: 50px;
         align-items: center;
         justify-content: center;

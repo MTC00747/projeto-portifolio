@@ -36,6 +36,9 @@
     top: 3px;
     background-color: rgba(255, 235, 205, 0.445);
 }
+.menuBurguer{
+    display: none;
+}
 
 
 /*Deixando o site resposivo*/
@@ -55,6 +58,40 @@
     .menu-bar_logo {
         margin-right: 200px;
         width: 200px;
+    }
+    .menuBurguer{
+        display:block;
+        background-color: transparent;
+    }
+    .menu-bar_coluna{
+        box-shadow:  10px 10px 10px 5px white;
+
+        position: fixed;
+        z-index: 1000;
+        width: 70%;
+        height: 100%;
+        background-color: rgb(26, 26, 24);
+        top: 0;
+        right: 0;
+        opacity: 0.9;
+    }
+    
+    .menu-bar_coluna > nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .menu-bar_coluna > nav > a{
+        margin-top: 30px;
+        font-size: 1.5em;
+        color: #FF5757;;
+        
+    }
+    .menu-bar_coluna > nav > a > img{
+       width: 40px;
+        
     }
 
 }
