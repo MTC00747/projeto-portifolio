@@ -16,10 +16,15 @@ export class PortifolioComponent {
     Link : "https://github.com/MTC00747/CasaDosLivrosAngular"
     }
     ,{
-      Imagem : "./assets/casaDosLivros.png",
+      Imagem : "./assets/Blog-Angular.png",
     Titulo :"Blog-Angular",
     Descricao : "Precisa de um Blog?",
-    Link : "https://github.com/MTC00747/CasaDosLivrosAngular"
+    Link : "https://github.com/MTC00747/Blog-Angular"
+    },{
+      Imagem : "./assets/buzzfeed.png",
+    Titulo :"BuzzFeed clone",
+    Descricao :"Um projeto para se divertir realizando testes de personalidade",
+    Link : "https://github.com/MTC00747/projeto-BuzzFeed"
     }
   ]
 

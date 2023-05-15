@@ -23,6 +23,11 @@
     font-family:'PT Sans', sans-serif; 
     font-size:1.1em;
 }
+.menu-bar > nav > a:HOVER{
+   position: relative;
+   top: 3px;
+   background-color: rgba(255, 235, 205, 0.445);
+}
 .menu-bar > nav > a > img{
  width: 40px;
 }

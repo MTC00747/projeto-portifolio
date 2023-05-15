@@ -11,6 +11,8 @@ import { CardTituloComponent } from './Views/card-titulo/card-titulo.component';
 import { SobreMimComponent } from './Views/sobre-mim/sobre-mim.component';
 import { CardSkillsComponent } from './Views/card-skills/card-skills.component';
 import { PortifolioComponent } from './Views/portifolio/portifolio.component';
+import { CardServicosComponent } from './Views/card-servicos/card-servicos.component';
+import { ContatoComponent } from './Views/contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { PortifolioComponent } from './Views/portifolio/portifolio.component';
     CardTituloComponent,
     SobreMimComponent,
     CardSkillsComponent,
-    PortifolioComponent
+    PortifolioComponent,
+    CardServicosComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

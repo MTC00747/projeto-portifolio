@@ -27,9 +27,9 @@
     margin-top:10px;
     width: 300px; 
     height: 570px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3.5px 3.5px 3.5px white;
 
-    border:7px solid white;
+    border:3px solid white;
     border-radius: 20px;
 
     display: flex;

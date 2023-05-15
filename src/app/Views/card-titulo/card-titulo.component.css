@@ -36,6 +36,10 @@
     border-radius: 10px;
     margin-left: 210px;
 }
+.card-menu_conteudo  > button:hover{
+   position:relative;
+   top:5px;
+}
 .button{
     display:flex;
     align-items: center;
