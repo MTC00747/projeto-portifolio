@@ -65,6 +65,7 @@
 @media (min-width: 200px) and (max-width:650px){
 
     .sobre-mim_container {
+        border: 1px solid white;
         margin-top: 50px;
         align-items: center;
         justify-content: center;
@@ -72,7 +73,7 @@
         width: 100%;
     }
 
-    .sobre-mim_container>span {
+    .sobre-mim_container > span {
         display: none;
     }
 
@@ -83,11 +84,12 @@
         
     }
     .sobre-mim_conteudo > h1{
+        margin-left: 60px;
         font-size: 1.5em;
     }
     .sobre-mim_conteudo>p {
         width: 70%;
         font-size: 1em;
-        
+        margin-left:60px;
     }
 }

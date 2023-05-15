@@ -21,3 +21,16 @@
 .contato_icones>a>img {
     width: 40px;
 }
+
+@media (min-width: 200px) and (max-width:650px) {
+
+    .contato_titulo {
+        font-size: 0.6em;
+        font-family: 'TS Sans';
+        color: white;
+    }
+    .contato_icones>a>img {
+        width: 20px;
+    }
+
+}

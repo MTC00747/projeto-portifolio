@@ -75,6 +75,7 @@
         flex-direction: column;
        
         height: 700px;
+        border: 2px solid white;
         
     }
     .card-menu_conteudo{
@@ -83,21 +84,30 @@
         width: 100%;
         margin-bottom: 50px;
         padding-bottom: 20px;
+        
     }
     .card-menu_conteudo > h1{
+        margin-left: 10px;
         font-size: 1.5em;
         width: 50%;
     }
     .card-menu_conteudo > p{
+        margin-left: 10px;
         width: 50%;
         font-size: 1em;
     }
+    .card-menu_conteudo > button{
+        margin-left: 0px;
+        margin-right:50px;
+    }
     .card-menu_image {
         width: 50%;
-        margin-left: 210px;
+        margin-left: 20px;
+        
     }
     .card-menu_image > img{
         width: 100%;
+        margin-left: 10px;
     
     }
  }

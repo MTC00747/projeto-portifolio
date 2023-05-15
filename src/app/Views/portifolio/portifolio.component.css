@@ -111,6 +111,7 @@
 
     .portifolio_container {
         width: 100%;
+        border: 1px solid white;
         height: 1500px;
     }
 
@@ -125,6 +126,6 @@
     }
     .Projetos_conteudo{
         margin-left: 60px;
-        width: 100%;
+        width: 60%;
     }
 }
