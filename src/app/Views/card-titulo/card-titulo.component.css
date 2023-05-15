@@ -67,16 +67,20 @@
 }
 
 /*Deixando o site responsivo*/
-@media (max-width: 500px) { 
+@media (min-width: 200px) and (max-width:650px) { 
 
     .card-titulo_container{
+        margin-top: 20px;
         flex-direction: column;
-        align-items: flex-start;
-        height: 1000px;
-        margin-top: 40px;
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        
     }
     .card-menu_conteudo{
         width: 100%;
+        margin-bottom: 50px;
+        padding-bottom: 20px;
     }
     .card-menu_conteudo > h1{
         font-size: 1.5em;
@@ -86,9 +90,13 @@
         width: 50%;
         font-size: 1em;
     }
-    .card-menu_image{
+    .card-menu_image {
         width: 50%;
-        margin-left: 150px;
+        margin-left: 210px;
+    }
+    .card-menu_image > img{
+        width: 100%;
+    
     }
  }
 

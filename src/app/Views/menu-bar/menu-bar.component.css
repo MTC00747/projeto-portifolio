@@ -35,19 +35,21 @@
 
 /*Deixando o site resposivo*/
 
-@media (max-width: 500px) { 
+@media (min-width: 200px) and (max-width:650px) { 
     .menu-bar_container{
-        width: 100%;
-        border-width: 100%;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
         border-bottom: 1px solid #b9b9b9;
         align-items: flex-start;
+        justify-content: flex-start;
     }
     .menu-bar >nav {
         display: none;
     }
     .menu-bar_logo{
-        width: 250px;
-        margin-left: 80px;
+        width: 200px;
+        margin-left: 170px;
     }
     
  }
