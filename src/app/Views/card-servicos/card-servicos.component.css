@@ -55,3 +55,29 @@
     text-align: center;
     color: white;
 }
+/*Responsividade*/
+@media (min-width: 200px) and (max-width:550px){
+.card-servicos_container{
+    width: 100%;
+    height: 1200px;
+}
+    .card-servicos_titulo{
+        font-size: 1.1em;
+        width: 300px;
+    }
+    .card-servicos{
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    .card-servicos_interface{
+        width: 100%;
+        
+    }
+    .card-servicos_interface > h1{
+        font-size: 1.5em;
+    }
+    .card-servicos_interface > h2{
+        font-size: 1em;
+    }
+
+}
