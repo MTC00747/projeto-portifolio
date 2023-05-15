@@ -66,3 +66,29 @@
     
 }
 
+/*Deixando o site responsivo*/
+@media (max-width: 500px) { 
+
+    .card-titulo_container{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 1000px;
+        margin-top: 40px;
+    }
+    .card-menu_conteudo{
+        width: 100%;
+    }
+    .card-menu_conteudo > h1{
+        font-size: 1.5em;
+        width: 50%;
+    }
+    .card-menu_conteudo > p{
+        width: 50%;
+        font-size: 1em;
+    }
+    .card-menu_image{
+        width: 50%;
+        margin-left: 150px;
+    }
+ }
+

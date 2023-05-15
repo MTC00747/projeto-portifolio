@@ -1,4 +1,5 @@
 .menu-bar_container{
+    width: 100%;
     background-color: #222020;
     border-bottom: 1px solid #b9b9b9;
 }
@@ -31,3 +32,22 @@
 .menu-bar > nav > a > img{
  width: 40px;
 }
+
+/*Deixando o site resposivo*/
+
+@media (max-width: 500px) { 
+    .menu-bar_container{
+        width: 100%;
+        border-width: 100%;
+        border-bottom: 1px solid #b9b9b9;
+        align-items: flex-start;
+    }
+    .menu-bar >nav {
+        display: none;
+    }
+    .menu-bar_logo{
+        width: 250px;
+        margin-left: 80px;
+    }
+    
+ }
