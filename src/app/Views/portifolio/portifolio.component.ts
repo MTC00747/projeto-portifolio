@@ -19,12 +19,12 @@ export class PortifolioComponent {
       Imagem : "./assets/Blog-Angular.png",
     Titulo :"Blog-Angular",
     Descricao : "Precisa de um Blog?",
-    Link : "https://github.com/MTC00747/Blog-Angular"
+    Link : "https://mtc00747.github.io/Angular-Blog/Angular-Blog"
     },{
       Imagem : "./assets/buzzfeed.png",
     Titulo :"BuzzFeed clone",
     Descricao :"Um projeto para se divertir realizando testes de personalidade",
-    Link : "https://github.com/MTC00747/projeto-BuzzFeed"
+    Link : "https://mtc00747.github.io/projeto-BuzzFeed/Projeto-BuzzFeed"
     }
   ]
 
