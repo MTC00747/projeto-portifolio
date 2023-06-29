@@ -25,6 +25,12 @@ export class PortifolioComponent {
     Titulo :"BuzzFeed clone",
     Descricao :"Um projeto para se divertir realizando testes de personalidade",
     Link : "https://mtc00747.github.io/projeto-BuzzFeed/Projeto-BuzzFeed"
+    },
+    {
+      Imagem : "./assets/unusBank.png",
+    Titulo :"Unus Bank",
+    Descricao :"Precisa de um site para sua empresa?",
+    Link : "https://unusbank.com.br/"
     }
   ]
 
