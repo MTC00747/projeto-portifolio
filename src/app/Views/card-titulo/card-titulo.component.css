@@ -1,7 +1,7 @@
 .card-titulo_container{
     height: 500px ;
     width: 99%;;
-    background-color: #222020;
+    background-color: #111010;
     
     display: flex;
     flex-direction: row;
@@ -38,6 +38,7 @@
 }
 .card-menu_conteudo  > button:hover{
    position:relative;
+   background: linear-gradient(to right, #FF5757, #8f7a7a);
    top:5px;
 }
 .button{
@@ -58,8 +59,11 @@
 .card-menu_image{
     width: 50%;
     margin-left: 60px;
+
+
 }
 .card-menu_image > img{
+    box-shadow: 0px 0px 80px 0px #FF5757;
     width: 300px;
     border-radius: 150px;
     margin-top: 50px;
