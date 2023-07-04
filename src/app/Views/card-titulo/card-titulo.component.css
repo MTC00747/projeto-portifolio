@@ -71,44 +71,47 @@
 }
 
 /*Deixando o site responsivo*/
-@media (min-width: 200px) and (max-width:650px) { 
+@media (min-width: 200px) and (max-width:480px) { 
 
     .card-titulo_container{
         width: 100%;
         margin-top: 20px;
         flex-direction: column;
-       
+       align-items: center;
+       justify-content: center;
         height: 700px;
        
         
     }
     .card-menu_conteudo{
-    
+
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin-bottom: 50px;
         padding-bottom: 20px;
-        justify-content: flex-start;
-        align-items: flex-start;
+        
         
     }
     .card-menu_conteudo > h1{
-        margin-left: 50px;
+        margin-left: 10px;
+        text-align: center;
         font-size: 1.5em;
-        width: 50%;
+        width: 100%;
     }
     .card-menu_conteudo > p{
-        margin-left: 50px;
-        width: 50%;
+        margin-right: 170px;
+
+        width: 80%;
         font-size: 1em;
     }
     .card-menu_conteudo > button{
-        margin-left: 50px;
+    margin-left: 0px;
        
     }
     .card-menu_image {
         width: 50%;
-        margin-left: 40px;
-        
+        margin-right: 80px;
     }
     .card-menu_image > img{
         width: 100%;

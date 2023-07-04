@@ -12,9 +12,11 @@
 }
 
 .menu-bar_logo {
+
     width: 200px;
     height: 200px;
-    background-image:url('src\assets\MtcLogo.png');
+    background-image: url('src\assets\MtcLogo.png');
+
 }
 
 .menu-bar>nav {
@@ -36,19 +38,20 @@
     top: 3px;
     background-color: rgba(255, 235, 205, 0.445);
 }
-.menuBurguer{
+
+.menuBurguer {
     display: none;
 }
 
 
 /*Deixando o site resposivo*/
 
-@media (min-width: 200px) and (max-width:650px) {
+@media (min-width: 200px) and (max-width:480px) {
     .menu-bar_container {
         width: 100%;
         height: 120px;
         border: 1px solid #b9b9b9;
-    
+
     }
 
     .menu-bar>nav {
@@ -56,15 +59,23 @@
     }
 
     .menu-bar_logo {
+        margin-top: 70px;
         margin-right: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 200px;
     }
-    .menuBurguer{
-        display:block;
-        background-color: transparent;
+
+    .menuBurguer {
+        margin-top: 40px;
+        display: block;
+        margin-right: 40px;
+        background-color:transparent;
+        border: 0;
     }
-    .menu-bar_coluna{
-        box-shadow:  10px 10px 10px 5px white;
+
+    .menu-bar_coluna {
+        box-shadow: 10px 10px 10px 5px white;
 
         position: fixed;
         z-index: 1000;
@@ -75,23 +86,26 @@
         right: 0;
         opacity: 0.9;
     }
-    
-    .menu-bar_coluna > nav {
+
+    .menu-bar_coluna>nav {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-top: 50px;
     }
-    .menu-bar_coluna > nav > a{
+
+    .menu-bar_coluna>nav>a {
         margin-top: 30px;
         font-size: 1.5em;
-        color: #FF5757;;
-        
+        color: #FF5757;
+
     }
-    .menu-bar_coluna > nav > a > img{
-       width: 40px;
-        
+
+    .img-menu {
+        width: 40px;
+
+
     }
 
 }

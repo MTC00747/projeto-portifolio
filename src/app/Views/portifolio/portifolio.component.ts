@@ -31,6 +31,12 @@ export class PortifolioComponent {
     Titulo :"Unus Bank",
     Descricao :"Precisa de um site para sua empresa?",
     Link : "https://unusbank.com.br/"
+    },
+    {
+      Imagem : "./assets/ctid.png",
+    Titulo :"CTI dos Motores",
+    Descricao :"Precisa de um site para sua empresa?",
+    Link : "https://ctidosmotores.com.br/",
     }
   ]
 
