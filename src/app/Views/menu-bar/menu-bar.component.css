@@ -15,7 +15,6 @@
 
     width: 200px;
     height: 200px;
-    background-image: url('src\assets\MtcLogo.png');
 
 }
 
@@ -31,6 +30,9 @@
 
     font-family: 'PT Sans', sans-serif;
     font-size: 1.1em;
+}
+.menu-bar>nav>a>img{
+    width: 40px;
 }
 
 .menu-bar>nav>a:HOVER {
@@ -59,8 +61,8 @@
     }
 
     .menu-bar_logo {
-        margin-top: 70px;
-        margin-right: 200px;
+      
+        margin-right: 100px;
         background-size: contain;
         background-repeat: no-repeat;
         width: 200px;
